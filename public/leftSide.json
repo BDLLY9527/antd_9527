@@ -1,0 +1,155 @@
+{
+  "action": [
+    {
+      "id": "1",
+      "menuid": "0",
+      "operate": "新建游戏"
+    },
+    {
+      "id": "2",
+      "menuid": "0",
+      "operate": "游戏信息查看"
+    }
+  ],
+  "menu": [
+    {
+      "first": "工作台",
+      "action_name": "工作台",
+      "action": "./main.html",
+      "type":"user"
+    },
+    {
+      "first": "CEO中心",
+      "type":"align-center",
+      "second": [
+        {
+          "action": "/",
+          "action_name": "CEO网络看板"
+        },
+        {
+          "action": "/Bill",
+          "action_name": "CEO游戏列表"
+        }
+      ]
+    },
+    {
+      "first": "权限管理",
+      "type":"build",
+      "second": [
+        {
+          "action": "/Alex",
+          "action_name": "成员管理"
+        },
+        {
+          "action": "./member/role-manager.html",
+          "action_name": "角色管理"
+        },
+        {
+          "action": "./member/menu-manager.html",
+          "action_name": "菜单管理"
+        },
+        {
+          "action": "./member/function-manager.html",
+          "action_name": "功能管理"
+        }
+      ]
+    },
+    {
+      "first": "基础管理",
+      "type":"fire",
+      "second": [
+        {
+          "action": "./Business_directory/basics_manage/basics_list.html",
+          "action_name": "渠道管理"
+        }
+      ]
+    },
+    {
+      "first": "游戏运营管理",
+      "type":"pound",
+      "second": [
+        {
+          "action": "./game_manager/game_manager_1.html",
+          "action_name": "数据总览"
+        },
+        {
+          "action": "./Business_directory/game_operation_manage/game_message_manage.html",
+          "action_name": "游戏信息管理"
+        },
+        {
+          "action": "./game_manager/game_manager_last.html",
+          "action_name": "游戏运营管理"
+        }
+      ]
+    },
+    {
+      "first": "二期功能开发",
+      "type":"rest",
+      "second": [
+        {
+          "action": "./second_function/promotion_page_manage.html",
+          "action_name": "推广页管理"
+        },
+        {
+          "action": "./second_function/Channel-delivery.html",
+          "action_name": "渠道投放管理"
+        },
+        {
+          "action": "./second_function/Channel-accounts.html",
+          "action_name": "渠道结算记录"
+        },
+        {
+          "action": "./second_function/version-control.html",
+          "action_name": "版本管理"
+        },
+        {
+          "action": "./second_function/version_number_manage.html",
+          "action_name": "版本号管理"
+        },
+        {
+          "action": "./Business_directory/game_list/game_list_index.html",
+          "action_name": "游戏列表"
+        },
+        {
+          "action": "./Business_directory/basics_manage/basics_list.html",
+          "action_name": "渠道管理"
+        },
+        {
+          "action": "./second_function/promotion_page_stat.html",
+          "action_name": "子推广页统计"
+        },
+        {
+          "action": "./second_function/channel_putin_stat.html",
+          "action_name": "渠道投放统计"
+        },
+        {
+          "action": "./second_function/Channel maintenance.html",
+          "action_name": "渠道维护"
+        },
+        {
+          "action": "./second_function/Delivery_statistics.html",
+          "action_name": "投放数据统计"
+        }
+      ]
+    },
+    {
+      "first": "游戏列表",
+      "type":"project",
+      "action": "./Business_directory/game_list/game_list_index.html"
+    }
+  ],
+  "userInfo": [
+    {
+      "email": "",
+      "gameid": "",
+      "group": "超级管理员",
+      "ip": "114.242.103.194",
+      "isvalid": "1",
+      "login_num": "23",
+      "login_time": "2018-10-30 09:42:26",
+      "phone": "0",
+      "user_id": "1",
+      "username": "admin"
+    }
+  ]
+}
